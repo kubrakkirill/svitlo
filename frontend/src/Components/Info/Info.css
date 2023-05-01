@@ -1,0 +1,41 @@
+.info{
+    background: #FFFFFF;
+    padding: 95px 44px;
+    margin: 0 16px;
+}
+.info__container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.info__container h4{
+    width: 963px;
+}
+.info__content{
+    display: grid;
+    grid-template-columns: 37% 53%;
+    gap: 6%;
+}
+.info__content-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    margin-bottom: 32px;
+}
+.info__content-cards{
+    display: flex;
+    width: 100%;
+}
+.info__content-card{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 20px 16px;
+    background-color: #D2D2D2;
+}
