@@ -1,15 +1,26 @@
-.header{
-    font-family: 'Open Sans', sans-serif;
+header{
+    margin: 0 16px;
+    background-color: rgba(1, 1, 1, 0.3);
     /*background-image: url("../../Assets/header.jpg");*/
+}
+.header{
+    overflow: hidden;
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0 4px 4px rgba(0,0,0,.25);
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    width: var(--container-bg);
-    height: 100vh;
+    /*height: 100vh;*/
     margin: 0 auto;
+    width: var(--container-bg);
 }
 .header-image{
     z-index: 1;
-    transform: translateY(-73%);
+    object-position: 50% 50%;
+    /*transform: translateY(-67%);*/
 }
 .header__main{
     z-index: 2;
