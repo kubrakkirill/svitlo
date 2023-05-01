@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from "swiper";
 
+
 const data = [
     {
         tag: '#svitlo.space',
