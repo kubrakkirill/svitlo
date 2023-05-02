@@ -1,10 +1,8 @@
 header{
     margin: 0 16px;
     background-color: rgba(1, 1, 1, 0.3);
-    /*background-image: url("../../Assets/header.jpg");*/
 }
 .header{
-    overflow: hidden;
     position: absolute;
     top: 27px;
     left: 50%;
@@ -13,18 +11,11 @@ header{
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    /*height: 100vh;*/
     margin: 0 auto;
-    width: var(--container-bg);
-}
-.header-image{
-    z-index: 1;
-    object-position: 50% 50%;
-    /*transform: translateY(-67%);*/
+    max-width: var(--container-bg);
 }
 .header__main{
     z-index: 2;
-    position: relative;
     margin: 85.52px 44px 0;
     display: flex;
     flex-direction: column;

@@ -1,4 +1,4 @@
-.primary-button{
+.button{
     font-family: 'Open Sans', sans-serif;
     padding: 17.5px 0;
     min-width: 360px;
@@ -8,9 +8,16 @@
     line-height: 150%;
     letter-spacing: 0.0125em;
     text-transform: uppercase;
-    color: #F0F0F0;
-    background: #687D6B;
     border-radius: 28px;
     outline: none;
     border: 0;
+}
+.primary-button{
+     color: #F0F0F0;
+     background: #687D6B;
+ }
+.secondary-button{
+    border: 1px solid #687D6B;
+    color: #474E54;
+    background: transparent;
 }

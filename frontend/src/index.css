@@ -53,7 +53,7 @@ h6{
     --container-bg: 1248px;
 }
 section{
-    width: var(--container-bg);
+    max-width: var(--container-bg);
     margin: 0 auto;
 }
 

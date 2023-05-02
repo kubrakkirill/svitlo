@@ -1,4 +1,4 @@
-import {Inscription, Header} from '../src/Components/index'
+import {Inscription, Header, Contact} from '../src/Components/index'
 import './index.css'
 import {Info} from "./Components";
 
@@ -8,6 +8,7 @@ function App() {
         <Inscription />
         <Header />
         <Info />
+        <Contact />
     </div>
   );
 }
