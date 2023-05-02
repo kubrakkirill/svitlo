@@ -34,7 +34,11 @@
     padding: 32px 16px;
 }
 .price{
+    transition: 1.3s;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.price:hover{
+    transform: scale(1.15);
 }
