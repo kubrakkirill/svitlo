@@ -9,7 +9,7 @@ footer{
     /*gap: 50px;*/
     display: flex;
     justify-content: space-between;
-    gap: 108px;
+    gap: 9.5%;
     padding: 35px 50px;
 }
 .footer__container > small{
