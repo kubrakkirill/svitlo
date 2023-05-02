@@ -97,7 +97,7 @@ const Contact = () => {
                                 <p>Стабільний інтернет</p>
                             </article>
                             <article>
-                                <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M2.125 6.87496L8.5 1.91663L14.875 6.87496V14.6666C14.875 15.0423 14.7257 15.4027 14.4601 15.6684C14.1944 15.934 13.8341 16.0833 13.4583 16.0833H3.54167C3.16594 16.0833 2.80561 15.934 2.53993 15.6684C2.27426 15.4027 2.125 15.0423 2.125 14.6666V6.87496Z" stroke="#474E54" strokeWidth="0.708333" strokeLinecap="round" strokeLinejoin="round"/>
                                     <path d="M6.375 16.0833V9H10.625V16.0833" stroke="#474E54" strokeWidth="0.708333" strokeLinecap="round" strokeLinejoin="round"/>
                                 </svg>
@@ -117,7 +117,7 @@ const Contact = () => {
                                 <p>Starlink</p>
                             </article>
                             <article>
-                                <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="19" height="20" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.4583 8.29163H3.54167C2.75926 8.29163 2.125 8.92589 2.125 9.70829V14.6666C2.125 15.449 2.75926 16.0833 3.54167 16.0833H13.4583C14.2407 16.0833 14.875 15.449 14.875 14.6666V9.70829C14.875 8.92589 14.2407 8.29163 13.4583 8.29163Z" stroke="#474E54" strokeWidth="0.708333" strokeLinecap="round" strokeLinejoin="round"/>
                                     <path d="M4.95831 8.29163V5.45829C4.95831 4.51898 5.33145 3.61815 5.99564 2.95396C6.65983 2.28976 7.56067 1.91663 8.49998 1.91663C9.43929 1.91663 10.3401 2.28976 11.0043 2.95396C11.6685 3.61815 12.0416 4.51898 12.0416 5.45829V8.29163" stroke="#474E54" strokeWidth="0.708333" strokeLinecap="round" strokeLinejoin="round"/>
                                 </svg>
