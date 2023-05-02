@@ -1,0 +1,40 @@
+.special{
+    color: #303030;
+    margin: 0 16px;
+    background-color: #FFFFFF;
+}
+.special__container{
+    padding: 104px 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 56px;
+    column-gap: 24px;
+}
+.special__title{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.special__title p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.0025em;
+}
+.special__items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.special__items > article{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: space-between;
+    padding: 32px 16px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
