@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import image from '../../Assets/header.jpg'
+import image from '../../Assets/header2.svg'
 import Nav from "../Nav/Nav";
 import PrimaryButton from "../Button/PrimaryButton";
 
