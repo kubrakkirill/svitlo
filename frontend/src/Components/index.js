@@ -4,6 +4,7 @@ import Info from "./Info/Info";
 import Contact from "./Contact/Contact"
 import Special from "./Special/Special"
 import Questions from "./Questions/Questions"
+import Footer from "./Footer/Footer"
 
 export {
     Inscription,
@@ -12,4 +13,5 @@ export {
     Contact,
     Special,
     Questions,
+    Footer,
 }

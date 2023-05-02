@@ -1,0 +1,80 @@
+footer{
+    color: #FFFFFF;
+    max-width: var(--container-bg);
+    margin: 0 auto;
+}
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*gap: 20px;*/
+    padding: 35px 50px;
+}
+.footer__container > small{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.004em;
+}
+.footer__container > p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.001em;
+}
+.footer__address{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer__address-icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.footer__flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.001em;
+    margin: 10px 0 10px;
+}
+.footer__notification form{
+    margin: 25px 0 70px;
+    display: flex;
+}
+.footer__notification input{
+    min-width: 170px;
+    border-color: transparent;
+    outline: none;
+    background-color: #687D6B;
+    width: 60%;
+    border-bottom: 1px solid #D9D9D9;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.015em;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer__notification button{
+    border-color: transparent;
+    outline: none;
+    background: #D2D2D2;
+    padding: 11.5px 9px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 150%;
+    letter-spacing: 0.0125em;
+    text-transform: uppercase;
+    color: #474E54;
+}
+.footer__notification a{
+    text-decoration: underline;
+}

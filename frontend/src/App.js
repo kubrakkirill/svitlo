@@ -1,4 +1,4 @@
-import {Inscription, Header, Contact, Special, Questions} from '../src/Components/index'
+import {Inscription, Header, Contact, Special, Questions, Footer} from '../src/Components/index'
 import './index.css'
 import {Info} from "./Components";
 
@@ -11,6 +11,7 @@ function App() {
         <Contact />
         <Special />
         <Questions />
+        <Footer />
     </div>
   );
 }
