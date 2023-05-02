@@ -9,7 +9,7 @@
     gap: 32px;
 }
 .info__container h4{
-    width: 963px;
+    width: 80%;
 }
 .info__content{
     display: grid;
@@ -26,6 +26,7 @@
 .info__content-cards{
     display: flex;
     width: 100%;
+    height: 100%;
 }
 .info__content-card{
     position: absolute;
