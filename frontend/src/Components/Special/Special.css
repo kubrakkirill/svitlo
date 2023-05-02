@@ -37,8 +37,8 @@
     transition: 1.3s;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .price:hover{
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
