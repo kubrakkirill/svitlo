@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Info from "./Info/Info";
 import Contact from "./Contact/Contact"
 import Special from "./Special/Special"
+import Questions from "./Questions/Questions"
 
 export {
     Inscription,
@@ -10,4 +11,5 @@ export {
     Info,
     Contact,
     Special,
+    Questions,
 }
