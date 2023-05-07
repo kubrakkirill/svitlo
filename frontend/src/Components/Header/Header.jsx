@@ -6,12 +6,14 @@ import PrimaryButton from "../Button/PrimaryButton";
 const Header = (props) => {
 
     return (
-        <header>
-            <div className="header-image">
-                <img src={props.image} alt="Header"/>
-            </div>
+        <header style={{backgroundImage: `url(${props.image})`}}>
+            {/*<div className="header-image">*/}
+            {/*    <img src={props.image} alt="Header"/>*/}
+            {/*</div>*/}
             <div className="header">
-                {props.nav ? <Nav/> : null}
+                <div className="header__nav">
+                    {props.nav ? <Nav/> : null}
+                </div>
                 <div className="header__main">
                     <h3>
                         {props.title}
