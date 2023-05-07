@@ -42,3 +42,14 @@
 .price:hover{
     transform: scale(1.2);
 }
+@media (max-width: 1250px) {
+    .special__container{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 650px) {
+    .about-us-cards__container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
