@@ -1,18 +1,15 @@
-import {Inscription, Header, Contact, Special, Questions, Footer} from '../src/Components/index'
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {Main, Events} from '../src/Pages/Index'
 import './index.css'
-import {Info} from "./Components";
 
 function App() {
   return (
-    <div>
-        <Inscription />
-        <Header />
-        <Info />
-        <Contact />
-        <Special />
-        <Questions />
-        <Footer />
-    </div>
+      <BrowserRouter>
+          <Routes>
+              <Route path='/' element={<Main />}/>
+              <Route path='/events' element={<Events />}/>
+          </Routes>
+      </BrowserRouter>
   );
 }
 

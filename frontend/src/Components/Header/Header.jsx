@@ -1,26 +1,27 @@
 import React from 'react'
 import './Header.css'
-import image from '../../Assets/header2.svg'
 import Nav from "../Nav/Nav";
 import PrimaryButton from "../Button/PrimaryButton";
 
-const Header = () => {
+const Header = (props) => {
+
     return (
         <header>
             <div className="header-image">
-                <img src={image} alt="Header"/>
+                <img src={props.image} alt="Header"/>
             </div>
             <div className="header">
-                <Nav/>
+                {props.nav ? <Nav/> : null}
                 <div className="header__main">
                     <h3>
-                        Svitlo Space – <br/>
-                        твій затишний простір для роботи і відпочинку
+                        {props.title}
+                        <br/>
+                        {props.titleText}
                     </h3>
                     <h6>
-                        Ми допоможемо підібрати індивідуальний офіс під ваші потреби!
+                        {props.text}
                     </h6>
-                    <PrimaryButton text='Забронювати місце'/>
+                    <PrimaryButton text={props.button}/>
                 </div>
             </div>
         </header>

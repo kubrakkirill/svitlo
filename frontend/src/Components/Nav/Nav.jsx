@@ -1,5 +1,6 @@
 import React from 'react'
 import './Nav.css'
+import {Link} from 'react-router-dom'
 
 const Nav = () => {
     return (
@@ -15,9 +16,9 @@ const Nav = () => {
                 </svg>
             </div>
             <div className="nav__menu">
-                <a href="#">Головна</a>
+                <Link to={`/`}>Головна</Link>
                 <a href="#">Послуги</a>
-                <a href="#">Івенти</a>
+                <Link to={`/events`}>Івенти</Link>
                 <a href="#">Контакти</a>
             </div>
             <div className="nav__services">

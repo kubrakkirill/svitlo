@@ -53,23 +53,6 @@ const Special = () => {
                         Наш коворкінг є також локацією для ваших івентів.</p>
                 </div>
                 <div className="special__items">
-                    {/*{*/}
-                    {/*    data.map(({title, text, price, color}, index) =>{*/}
-                    {/*        return(*/}
-                    {/*            <article key={index} style={(color === '#687D6B' || color === '#474E54') ? {backgroundColor: color, color: "white"} : {backgroundColor: color}}>*/}
-                    {/*                <p>{title}</p>*/}
-                    {/*                <small>{text}</small>*/}
-                    {/*                <div className="price">*/}
-                    {/*                    {price}*/}
-                    {/*                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">*/}
-                    {/*                        <path d="M6.04166 14.5H22.9583" stroke="#303030" strokeWidth={1.20833} strokeLinecap="round" strokeLinejoin="round"/>*/}
-                    {/*                        <path d="M14.5 6.04175L22.9583 14.5001L14.5 22.9584" stroke="#303030" strokeWidth={1.20833} strokeLinecap="round" strokeLinejoin="round"/>*/}
-                    {/*                    </svg>*/}
-                    {/*                </div>*/}
-                    {/*            </article>*/}
-                    {/*        )*/}
-                    {/*    })*/}
-                    {/*}*/}
                     <article style={(data[0].color === '#687D6B' || data[0].color === '#474E54') ? {backgroundColor: data[0].color, color: "white"} : {backgroundColor: data[0].color}}>
                         <p>{data[0].title}</p>
                         <small>{data[0].text}</small>
