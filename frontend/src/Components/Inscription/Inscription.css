@@ -3,3 +3,8 @@
     line-height: 150%;
     color: #FFFFFF;
 }
+@media (max-width: 750px) {
+    .inscription{
+        display: none;
+    }
+}
