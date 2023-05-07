@@ -38,6 +38,16 @@ const AboutUs = () => {
                           tag: '#svitlo.space',
                           title: 'Ми відкриті🥳 ...',
                           img: imageCard1
+                      },
+                      {
+                          tag: '#svitlo.space',
+                          title: `Лабораторний 7 - ЖК Alter Ego ...`,
+                          img: imageCard2
+                      },
+                      {
+                          tag: '#svitlo.space',
+                          title: 'Ми відкриті🥳 ...',
+                          img: imageCard1
                       }
                   ]}/>
             <AboutUsCardSection />

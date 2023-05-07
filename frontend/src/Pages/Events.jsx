@@ -38,6 +38,16 @@ const Events = () => {
                           tag: '#svitlo.space',
                           title: 'Нейрографіка – це психологічний метод XXI століття...',
                           img: imageCard1
+                      },
+                      {
+                          tag: '#svitlo.space',
+                          title: `Lady' cash - трансформаційна настільна гра...`,
+                          img: imageCard2
+                      },
+                      {
+                          tag: '#svitlo.space',
+                          title: 'Нейрографіка – це психологічний метод XXI століття...',
+                          img: imageCard1
                       }
                   ]}/>
             <EventsList />

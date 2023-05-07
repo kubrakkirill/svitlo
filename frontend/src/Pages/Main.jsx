@@ -28,21 +28,31 @@ const Main = () => {
                             конференційність особистих даних за потреби та індивідуальний підхід до кожного клієнта."
                   button="Забронювати місце"
                   data={[
-                  {
+                      {
                       tag: '#svitlo.space',
                       title: 'Світлина нашого простору з нагадуванням, що перемога буде за нами!',
                       img: imageCard1
-                  },
-                  {
+                      },
+                      {
                       tag: '#svitlo.space',
                       title: 'Чекаємо на тебе!',
                       img: imageCard2
-                  },
-                  {
+                      },
+                      {
                       tag: '#svitlo.space',
                       title: 'Світлина нашого простору з нагадуванням, що перемога буде за нами!',
                       img: imageCard1
-                  }
+                      },
+                      {
+                          tag: '#svitlo.space',
+                          title: 'Чекаємо на тебе!',
+                          img: imageCard2
+                      },
+                      {
+                          tag: '#svitlo.space',
+                          title: 'Світлина нашого простору з нагадуванням, що перемога буде за нами!',
+                          img: imageCard1
+                      }
                       ]}/>
             <Contact />
             <Special />
