@@ -5,12 +5,16 @@ import imageHeader from '../Assets/aboutHeader.png'
 import imageCard1 from "../Assets/aboutInfoCard1.png";
 import imageCard2 from "../Assets/aboutInfoCard2.png";
 import imageHeaderBottom from "../Assets/aboutHeaderBottom.png";
+import Nav from "../Components/Nav/Nav";
 
 const AboutUs = () => {
     return (
         <div>
             <Inscription />
-            <Header nav={true} title="Про нас" image={imageHeader} padding="17% 0 20%"/>
+            <Nav />
+            <Header nav={true}
+                    title="Про нас"
+                    image={imageHeader}/>
             <Info title="Ми - молода команда професіоналів, яка займається розробкою та управлінням Svitlo Space"
                   text="Наші засновниці - три незламні дівчини, які зрозуміли важливість робочого простору,
                   який стимулює та надихає на творчість.

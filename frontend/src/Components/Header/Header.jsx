@@ -5,17 +5,14 @@ import PrimaryButton from "../Button/PrimaryButton";
 import SecondaryButton from "../Button/SecondaryButton";
 
 const Header = (props) => {
-
+    // -95px 16px 0
     return (
-        <header style={{backgroundImage: `url(${props.image})`}}>
-            {/*<div className="header-image">*/}
-            {/*    <img src={props.image} alt="Header"/>*/}
-            {/*</div>*/}
+        <header style={props.nav ? {backgroundImage: `url(${props.image})`, margin: "-95px 16px 0"} : {backgroundImage: `url(${props.image})`, margin: "0 16px"}}>
             <div className="header">
                 <div className="header__nav">
-                    {props.nav ? <Nav/> : null}
+                    {/*{props.nav ? <Nav/> : null}*/}
                 </div>
-                <div className="header__main" style={{padding: `${props.padding}`}}>
+                <div className="header__main">
                     <h3>
                         {props.title}
                         <br/>
