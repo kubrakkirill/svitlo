@@ -4,7 +4,6 @@ import PrimaryButton from "../Button/PrimaryButton";
 import SecondaryButton from "../Button/SecondaryButton";
 
 const Header = (props) => {
-    // -95px 16px 0
     return (
         <header style={props.nav ? {backgroundImage: `url(${props.image})`, margin: "-95px 16px 0"} : {backgroundImage: `url(${props.image})`, margin: "0 16px"}}>
             <div className="header">

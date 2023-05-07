@@ -78,3 +78,27 @@ footer p{
 .footer__notification a{
     text-decoration: underline;
 }
+@media (max-width: 750px) {
+    .footer__container{
+        display: grid;
+        gap: 20px;
+        grid-template-areas: "logo logo logo"
+                                "nav news info"
+                                "not not not";
+    }
+    .footer__address{
+        grid-area: logo;
+    }
+    .footer__nav{
+        grid-area: nav;
+    }
+    .footer__news{
+        grid-area: news;
+    }
+    .footer__info{
+        grid-area: info;
+    }
+    .footer__notification{
+        grid-area: not;
+    }
+}

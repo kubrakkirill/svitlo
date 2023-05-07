@@ -48,7 +48,7 @@ header{
 .header__main{
     max-width: var(--container-bg);
     padding: 0 44px;
-    margin: 176px auto;
+    margin: 250px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;

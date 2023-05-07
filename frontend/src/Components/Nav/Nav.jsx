@@ -35,7 +35,7 @@ const Nav = () => {
                 </div>
                 <div className="nav__menu">
                     <Link to={`/`}>Головна</Link>
-                    <a href="#">Послуги</a>
+                    <Link to={`/services`}>Послуги</Link>
                     <Link to={`/events`}>Івенти</Link>
                     <Link to={`/about`}>Про нас</Link>
                     <a href="#">Контакти</a>
