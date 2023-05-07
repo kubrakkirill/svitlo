@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.css'
-import Nav from "../Nav/Nav";
 import PrimaryButton from "../Button/PrimaryButton";
 import SecondaryButton from "../Button/SecondaryButton";
 
