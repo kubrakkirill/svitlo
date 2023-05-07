@@ -4,12 +4,18 @@ import React from 'react'
 import image from '../Assets/header2.svg'
 import imageCard1 from "../Assets/image-of-card-1.jpg";
 import imageCard2 from "../Assets/image-of-2-card.jpg";
+import Nav from "../Components/Nav/Nav";
 
 const Main = () => {
     return (
         <div>
             <Inscription />
-            <Header nav={true} title="Svitlo Space – "  titleText="твій затишний простір для роботи і відпочинку" text="Ми допоможемо підібрати індивідуальний офіс під ваші потреби!" button="Забронювати місце" image={image}/>
+            <Nav />
+            <Header nav={true} title="Svitlo Space – "
+                    titleText="твій затишний простір для роботи і відпочинку"
+                    text="Ми допоможемо підібрати індивідуальний офіс під ваші потреби!"
+                    button="Забронювати місце"
+                    image={image}/>
             <Info title="Ми знаємо, що вам потрібно – світло, інтернет та простір для ефективної роботи."
                   text="Хочете працювати в креативному середовищі, зустрічатися з цікавими людьми
                             та розвиватися в своєму бізнесі? Ми пропонуємо вам унікальний коворкінг - місце,

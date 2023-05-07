@@ -4,11 +4,13 @@ import '../index.css'
 import image from '../Assets/headerEvents.png'
 import imageCard1 from "../Assets/eventCard1.png";
 import imageCard2 from "../Assets/eventCard2.png";
+import Nav from "../Components/Nav/Nav";
 
 const Events = () => {
     return (
         <div>
             <Inscription />
+            <Nav />
             <Header nav={true}
                     title="Svitlo Space – "
                     titleText="це не тільки простір для роботи, але й місце для цікавих та корисних заходів."
