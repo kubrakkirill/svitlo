@@ -1,5 +1,5 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Main, Events} from '../src/Pages/Index'
+import {Main, Events, AboutUs} from '../src/Pages/Index'
 import './index.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
           <Routes>
               <Route path='/' element={<Main />}/>
               <Route path='/events' element={<Events />}/>
+              <Route path='/about' element={<AboutUs />}/>
           </Routes>
       </BrowserRouter>
   );

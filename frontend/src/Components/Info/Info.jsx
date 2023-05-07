@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from "swiper";
+import SecondaryButton from "../Button/SecondaryButton";
 
 
 const Info = (props) => {
@@ -21,6 +22,7 @@ const Info = (props) => {
                             {props.text}
                         </p>
                         <PrimaryButton text={props.button}/>
+                        {props.secondaryButton ?  <SecondaryButton text={props.secondaryButton}/> : null}
                     </div>
                     <Swiper
                         navigation={true}

@@ -17,6 +17,9 @@
     gap: 6%;
 }
 .info__content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     height: 490px;
 }
 .info__content-text p{

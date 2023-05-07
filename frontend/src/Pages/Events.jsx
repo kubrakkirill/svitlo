@@ -1,5 +1,5 @@
 import React from 'react'
-import {Inscription, Header, Contact, Special, Footer, Info, EventsList} from '../Components/index'
+import {Inscription, Header, Footer, Info, EventsList} from '../Components/index'
 import '../index.css'
 import image from '../Assets/headerEvents.png'
 import imageCard1 from "../Assets/eventCard1.png";

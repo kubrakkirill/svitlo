@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import Nav from "../Nav/Nav";
 import PrimaryButton from "../Button/PrimaryButton";
+import SecondaryButton from "../Button/SecondaryButton";
 
 const Header = (props) => {
 
@@ -14,7 +15,7 @@ const Header = (props) => {
                 <div className="header__nav">
                     {props.nav ? <Nav/> : null}
                 </div>
-                <div className="header__main">
+                <div className="header__main" style={{padding: `${props.padding}`}}>
                     <h3>
                         {props.title}
                         <br/>
@@ -23,7 +24,8 @@ const Header = (props) => {
                     <h6>
                         {props.text}
                     </h6>
-                    <PrimaryButton text={props.button}/>
+                    {props.button ? <PrimaryButton text={props.button}/> : null}
+                    {props.secondaryButton ? <SecondaryButton text={props.secondaryButton}/> : null}
                 </div>
             </div>
         </header>

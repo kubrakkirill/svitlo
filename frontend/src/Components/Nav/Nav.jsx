@@ -19,6 +19,7 @@ const Nav = () => {
                     <Link to={`/`}>Головна</Link>
                     <a href="#">Послуги</a>
                     <Link to={`/events`}>Івенти</Link>
+                    <Link to={`/about`}>Про нас</Link>
                     <a href="#">Контакти</a>
                 </div>
                 <div className="nav__services">

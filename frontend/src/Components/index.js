@@ -6,6 +6,7 @@ import Special from "./Special/Special"
 import Questions from "./Questions/Questions"
 import Footer from "./Footer/Footer"
 import EventsList from "./EventsList/EventsList"
+import AboutUsCardSection from "./AboutUsCardSection/AboutUsCardSection"
 
 export {
     Inscription,
@@ -16,4 +17,5 @@ export {
     Questions,
     Footer,
     EventsList,
+    AboutUsCardSection,
 }
