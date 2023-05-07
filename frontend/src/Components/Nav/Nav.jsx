@@ -1,8 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Nav.css'
 import {Link} from 'react-router-dom'
+import {RiCloseLine, RiMenu3Line} from "react-icons/ri";
 
 const Nav = () => {
+    const [toggleMenu, setToggleMenu] = useState(false);
+
+    const Menu = () => (
+        <>
+            <p><Link to={`/`}>Головна</Link></p>
+            <p><a href="#">Послуги</a></p>
+            <p><Link to={`/events`}>Івенти</Link></p>
+            <p><Link to={`/about`}>Про нас</Link></p>
+            <p><a href="#">Контакти</a></p>
+        </>
+    )
 
     document.body.onscroll = function() {
         document.getElementById('nav').classList.add('nav-bg')
@@ -45,6 +57,19 @@ const Nav = () => {
                             </clipPath>
                         </defs>
                     </svg>
+                </div>
+                <div className="nav-mobile">
+                    {toggleMenu
+                        ? <RiCloseLine color="#fff" size={27} onClick={()=>{setToggleMenu(false)}}/>
+                        : <RiMenu3Line color="#fff" size={27} onClick={()=>{setToggleMenu(true)}}/>
+                    }
+                    {toggleMenu && (
+                        <div className="nav-mobile-menu">
+                            <div className="nav-mobile-links">
+                                <Menu />
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

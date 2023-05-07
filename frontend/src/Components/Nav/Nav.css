@@ -36,3 +36,34 @@
     z-index: 99;
     background-color: rgba(1, 1, 1, 0.73);
 }
+.nav-mobile{
+    display: none;
+}
+.nav-mobile-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    padding: 2rem;
+    background-color: rgba(1, 1, 1, 0.73);
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 3rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+    color: #F0F0F0;
+}
+@media (max-width: 900px) {
+    .nav-mobile{
+        display: block;
+    }
+    .nav__services{
+        display: none;
+    }
+    .nav__menu{
+        display: none;
+    }
+}
