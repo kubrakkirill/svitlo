@@ -24,6 +24,8 @@
 .events-list__container > article{
     min-height: 380px;
     color: #F0F0F0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .events-list__item-link{
     cursor: pointer;
@@ -62,5 +64,14 @@
 @media (max-width: 1200px) {
     .events-list__container{
         grid-template-columns: repeat(2, 48%);
+    }
+}
+@media (max-width: 900px) {
+    .events-list__container{
+        grid-template-columns: 1fr;
+    }
+    .events-list__item-content{
+        padding: 25% 20px 24px;
+        height: 100%;
     }
 }

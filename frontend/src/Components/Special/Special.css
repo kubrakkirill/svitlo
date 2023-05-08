@@ -53,4 +53,7 @@
         grid-template-columns: 1fr;
         gap: 20px;
     }
+    .special__items{
+        grid-template-columns: 1fr;
+    }
 }
