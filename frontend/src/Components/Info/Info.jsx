@@ -26,7 +26,7 @@ const Info = (props) => {
                     </div>
                     <Swiper
                         navigation={true}
-                        spaceBetween={137}
+                        spaceBetween={-37}
                         slidesPerView={2}
                         modules={[Navigation]}
                         className="info__content-cards">

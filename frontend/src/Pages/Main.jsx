@@ -1,4 +1,4 @@
-import {Inscription, Header, Contact, Special, Questions, Footer, Info} from '../Components/index'
+import {Inscription, Header, Contact2, Special, Questions, Footer, Info} from '../Components/index'
 import '../index.css'
 import React from 'react'
 import image from '../Assets/header2.svg'
@@ -54,7 +54,7 @@ const Main = () => {
                           img: imageCard1
                       }
                       ]}/>
-            <Contact />
+            <Contact2 />
             <Special />
             <Questions />
             <Footer />

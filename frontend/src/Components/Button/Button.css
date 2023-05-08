@@ -1,6 +1,7 @@
 .button{
     font-family: 'Open Sans', sans-serif;
-    padding: 17.5px 0;width: 360px;
+    padding: 17.5px 0;
+    width: 360px;
     text-align: center;
     font-weight: 600;
     font-size: 14px;
@@ -27,4 +28,14 @@
 .secondary-button:hover{
     color: #F0F0F0;
     background: #556658;
+}
+@media (max-width: 1350px) {
+    .button{
+        width: 300px;
+    }
+}
+@media (max-width: 850px) {
+    .button{
+        width: 200px;
+    }
 }

@@ -1,7 +1,7 @@
 import Inscription from "./Inscription/Inscription";
 import Header from "./Header/Header";
 import Info from "./Info/Info";
-import Contact from "./Contact/Contact"
+import Contact2 from "./Contact/Contact2"
 import Special from "./Special/Special"
 import Questions from "./Questions/Questions"
 import Footer from "./Footer/Footer"
@@ -14,7 +14,7 @@ export {
     Inscription,
     Header,
     Info,
-    Contact,
+    Contact2,
     Special,
     Questions,
     Footer,
