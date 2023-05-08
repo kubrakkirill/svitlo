@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -34,10 +35,10 @@ const Footer = () => {
                 </div>
                 <div className="footer__nav footer__flex">
                     <p>Навігація</p>
-                    <small>Головна</small>
-                    <small>Про нас</small>
-                    <small>Послуги</small>
-                    <small>Івенти</small>
+                    <small><Link to={`/`}>Головна</Link></small>
+                    <small><Link to={`/about`}>Про нас</Link></small>
+                    <small><Link to={`/services`}>Послуги</Link></small>
+                    <small><Link to={`/events`}>Івенти</Link></small>
                     <small>Контакти</small>
                 </div>
                 <div className="footer__news footer__flex">

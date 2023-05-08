@@ -1,0 +1,41 @@
+.contact{
+    overflow: hidden;
+    margin: 0 16px;
+    background-color: #EFEAE7;
+}
+.contact__container{
+    padding: 42px 44px 105px;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 100px;
+}
+.contact__media{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.contact__media-bottom{
+    display: flex;
+    gap: 24px;
+}
+.contact__media-button{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.contact__info{
+    border: 1px solid #474E54;
+}
+.contact__info-title{
+    text-align: center;
+    background-color: #687D6B;
+    padding: 31px 133.5px;
+}
+.contact__info-content{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 32px;
+}

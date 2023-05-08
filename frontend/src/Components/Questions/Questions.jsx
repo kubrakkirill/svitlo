@@ -76,12 +76,14 @@ const Questions = () => {
                                         color="#474E54"
                                         size={27}
                                         onClick={() => toggleAnswer(_id)}
+                                        style={{cursor: "pointer"}}
                                     />
                                 ) : (
                                     <IoIosArrowDown
                                         color="#474E54"
                                         size={27}
                                         onClick={() => toggleAnswer(_id)}
+                                        style={{cursor: "pointer"}}
                                     />
                                 )}
                             </div>
