@@ -8,7 +8,7 @@
 }
 #nav{
     position: sticky;
-    top: 20px;
+    top: 0;
     margin: 0 16px;
 }
 .nav__menu{
@@ -34,7 +34,8 @@
 }
 .nav-bg{
     z-index: 99;
-    background-color: rgba(1, 1, 1, 0.73);
+    /*background-color: rgba(1, 1, 1, 0.73);*/
+    background-color: #687D6B;
 }
 .nav-mobile{
     display: none;
