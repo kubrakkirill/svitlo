@@ -39,7 +39,7 @@ const Footer = () => {
                     <small><Link to={`/about`}>Про нас</Link></small>
                     <small><Link to={`/services`}>Послуги</Link></small>
                     <small><Link to={`/events`}>Івенти</Link></small>
-                    <small>Контакти</small>
+                    <small><Link to={`/contact`}>Контакти</Link></small>
                 </div>
                 <div className="footer__news footer__flex">
                     <p>Новини</p>

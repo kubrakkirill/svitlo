@@ -38,7 +38,7 @@ const Nav = () => {
                     <Link to={`/services`}>Послуги</Link>
                     <Link to={`/events`}>Івенти</Link>
                     <Link to={`/about`}>Про нас</Link>
-                    <a href="#">Контакти</a>
+                    <Link to={`/contact`}>Контакти</Link>
                 </div>
                 <div className="nav__services">
                     <div className="nav__services-language">

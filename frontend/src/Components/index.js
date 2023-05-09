@@ -9,6 +9,8 @@ import EventsList from "./EventsList/EventsList"
 import AboutUsCardSection from "./AboutUsCardSection/AboutUsCardSection"
 import ServicesSection from "./Services/ServicesSection"
 import ContactServices from "./ContactServices/ContactServices"
+import ContactLinks from "./ContactLinks/ContactLinks"
+import ContactForm from "./ContactForm/ContactForm"
 
 export {
     Inscription,
@@ -22,4 +24,6 @@ export {
     AboutUsCardSection,
     ServicesSection,
     ContactServices,
+    ContactForm,
+    ContactLinks,
 }
