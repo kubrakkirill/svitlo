@@ -1,5 +1,6 @@
 import React from 'react'
 import './ContactLinks.css'
+import {ContactForm} from "../index";
 
 const ContactLinks = () => {
 
@@ -72,6 +73,7 @@ const ContactLinks = () => {
                         )
                     })}
                 </div>
+                <ContactForm />
             </section>
         </div>
     )
