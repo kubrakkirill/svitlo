@@ -19,7 +19,7 @@ const Header = (props) => {
                     <h6>
                         {props.text}
                     </h6>
-                    {props.button ? <PrimaryButton text={props.button}/> : null}
+                    {props.button ? <PrimaryButton text={props.button} link={props.buttonLink}/> : null}
                     {props.secondaryButton ? <SecondaryButton text={props.secondaryButton}/> : null}
                 </div>
             </div>

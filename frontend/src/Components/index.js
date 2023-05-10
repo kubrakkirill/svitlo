@@ -11,6 +11,7 @@ import ServicesSection from "./Services/ServicesSection"
 import ContactServices from "./ContactServices/ContactServices"
 import ContactLinks from "./ContactLinks/ContactLinks"
 import ContactForm from "./ContactForm/ContactForm"
+import Calendar from "./Calendar/Calendar"
 
 export {
     Inscription,
@@ -26,4 +27,5 @@ export {
     ContactServices,
     ContactForm,
     ContactLinks,
+    Calendar,
 }

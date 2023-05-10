@@ -1,0 +1,54 @@
+.calendar{
+    margin: 0 16px;
+    background-color: #F0F0F0;
+    height: 70vh;
+}
+.calendar__container{
+    padding: 96px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+.calendar__book{
+    display: flex;
+    gap: 24px;
+}
+.calendar__book-rate{
+    padding: 45px 24px;
+    background-color: #EFEAE7;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.calendar__book-rate p{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 150%;
+    letter-spacing: 0.0015em;
+    color: #303030;
+}
+.calendar__book-rate__items > article{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.calendar__book-rate__items > article > small{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.0125em;
+    color: #303030;
+}
+.calendar__book-rate__items-svg{
+    scale: 1.3;
+    display: flex;
+    align-self: center;
+}
+.calendar__book-date{
+    padding: 40px 60px;
+    background: #E7E7E7;
+    border-radius: 28px;
+}
